@@ -10,18 +10,19 @@ body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
+  background: #333;
 }
 
 body {
   display: grid;
   place-items: center;
-  background: #333;
 }
 
 main {
-  background: url(images/background.svg);
-  width: 375px;
-  height: 812px;
+  background: url(images/background.svg) no-repeat center;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
   border-radius: 5px;
 }
 
